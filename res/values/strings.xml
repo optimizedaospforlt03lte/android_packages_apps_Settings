@@ -7951,4 +7951,9 @@
     <!-- Three finger gesture -->
     <string name="three_finger_gesture">Three finger screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
+    
+   <!-- Keyboard and Input ASS methods -->
+    <string name="show_enter_key_title">Show enter key</string>
+    <string name="show_enter_key_summary">Force keyboard to show enter instead of emoticon key</string>
+
 </resources>
