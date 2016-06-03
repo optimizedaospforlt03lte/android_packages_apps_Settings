@@ -7943,9 +7943,12 @@
     <string name="backlight_timeout_10s">10 sec</string>
     <string name="backlight_timeout_15s">15 sec</string>
     <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
-    
+    <string name="backlight_timeout_30s">30 sec</string>  
     
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Backlight</string>
+    
+    <!-- Three finger gesture -->
+    <string name="three_finger_gesture">Three finger screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
 </resources>
