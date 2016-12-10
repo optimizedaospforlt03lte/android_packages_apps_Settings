@@ -31,6 +31,12 @@
                 android:title="@string/auto_brightness_title"
                 settings:keywords="@string/keywords_display_auto_brightness"
                 android:summary="@string/auto_brightness_summary" />
+                
+        <PreferenceScreen
+                android:key="expanded_desktop"
+                android:title="@string/power_menu_expanded_desktop"
+                android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment"
+                settings:keywords="@string/keywords_expanded_desktop" />
 
         <com.android.settings.display.NightDisplayPreference
                 android:key="night_display"
@@ -116,6 +122,10 @@
                 android:summary="%s"
                 android:title="@string/display_vr_pref_title" />
                 
+         <PreferenceCategory
+             android:key="category_button_backlight_settings"
+             android:title="@string/button_backlight_category_title" >
+                
        <com.elixir.settings.preferences.CustomSeekBarPreference
 				android:key="button_brightness"
 				android:title="@string/button_brightness_title"
@@ -131,17 +141,14 @@
 				android:key="backlight_timeout"
 				android:persistent="false"
 				android:title="@string/backlight_timeout_title" />
-
-	 <SwitchPreference
-                android:key="three_finger_gesture"
-              	android:title="@string/three_finger_gesture"
-            	android:summary="@string/three_finger_gesture_summary"
-        		android:defaultValue="false" />	
-        		
-    <PreferenceScreen
-                android:key="expanded_desktop"
-                android:title="@string/power_menu_expanded_desktop"
-                android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment"
-                settings:keywords="@string/keywords_expanded_desktop" />
+ 
+ 
+       </PreferenceCategory>   
+       
+          <SwitchPreference
+               android:key="three_finger_gesture"
+               android:title="@string/three_finger_gesture"
+               android:summary="@string/three_finger_gesture_summary"
+        	   android:defaultValue="false" />    		
 
 </PreferenceScreen>
