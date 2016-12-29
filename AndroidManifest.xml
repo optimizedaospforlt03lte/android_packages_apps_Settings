@@ -928,8 +928,6 @@
                 android:value="true" />
         </activity>
 
-        </activity>
-
         <activity android:name="Settings$SuperSUActivity"
                 android:label="@string/supersu_title"
                 android:icon="@drawable/ic_settings_supersu"
