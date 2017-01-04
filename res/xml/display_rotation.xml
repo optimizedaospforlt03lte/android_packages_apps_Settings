@@ -53,11 +53,12 @@
     <PreferenceCategory
         android:key="display_rotation_advanced"
         android:title="@string/advanced_section_header" />
-     <com.android.settings.preference.SystemSettingSwitchPreference
+        
+     <SwitchPreference
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary"
-	android:dependency="accelerometer"
+		android:dependency="accelerometer"
         android:defaultValue="true"/>
 
 </PreferenceScreen>
