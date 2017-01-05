@@ -137,5 +137,11 @@
               	android:title="@string/three_finger_gesture"
             	android:summary="@string/three_finger_gesture_summary"
         		android:defaultValue="false" />	
+        		
+    <PreferenceScreen
+                android:key="expanded_desktop"
+                android:title="@string/power_menu_expanded_desktop"
+                android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment"
+                settings:keywords="@string/keywords_expanded_desktop" />
 
 </PreferenceScreen>
