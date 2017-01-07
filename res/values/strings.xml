@@ -7976,4 +7976,9 @@
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
     <string name="double_tap_to_sleep_summary">Double-tap on the status bar or top third and bottom shortcut area of the lock screen to turn off the display</string>
+    
+    <!-- Change Log -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title_summary">View recent changes in the ROM</string>
+    <string name="changelog_error">Unable to load changelog</string>
 </resources>
