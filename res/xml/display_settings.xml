@@ -122,6 +122,12 @@
                 android:summary="%s"
                 android:title="@string/display_vr_pref_title" />
                 
+        <SwitchPreference
+               android:key="three_finger_gesture"
+               android:title="@string/three_finger_gesture"
+               android:summary="@string/three_finger_gesture_summary"
+        	   android:defaultValue="false" />     
+                
          <PreferenceCategory
              android:key="category_button_backlight_settings"
              android:title="@string/button_backlight_category_title" >
@@ -143,12 +149,6 @@
 				android:title="@string/backlight_timeout_title" />
  
  
-       </PreferenceCategory>   
-       
-          <SwitchPreference
-               android:key="three_finger_gesture"
-               android:title="@string/three_finger_gesture"
-               android:summary="@string/three_finger_gesture_summary"
-        	   android:defaultValue="false" />    		
+       </PreferenceCategory>    		
 
 </PreferenceScreen>
